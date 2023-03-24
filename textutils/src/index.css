@@ -1,0 +1,57 @@
+#navfont{
+  font-family: 'Oswald', sans-serif;
+}
+
+#headfont{
+  display: flex;
+  justify-content:center;
+  font-family: 'Abril Fatface', cursive;
+font-family: 'Oswald', sans-serif;
+}
+
+.form-control{
+font-family: 'Playfair Display', serif;
+}
+
+#buttonTF{
+  display : flex;
+  flex-direction:row;
+  }
+
+#wordcount{
+font-family: 'Abril Fatface', cursive;
+font-family: 'Alkatra', cursive;
+font-family: 'Bree Serif', serif;
+font-family: 'DM Serif Display', serif;
+font-family: 'EB Garamond', serif;
+font-family: 'Lobster Two', cursive;
+font-family: 'Nanum Myeongjo', serif;
+font-family: 'Oswald', sans-serif;
+}
+
+#flexSwitchCheckDefault{
+  position: relative;
+  left:110%;
+}
+
+.navbar-toggler{
+  position: relative;
+  right:17px;
+}
+
+.accordion-body{
+font-family: 'Satisfy', cursive;
+}
+#modeText{
+position: relative;
+right:60%;
+}
+
+#copy{
+  margin:7px 0px 7px 4px ;
+ }
+
+#clear{
+margin: 7px 4px;
+
+}
