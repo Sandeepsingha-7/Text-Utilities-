@@ -55,3 +55,10 @@ right:60%;
 margin: 7px 4px;
 
 }
+.history {
+  text-align: center;
+  font-family: 'IBM Plex Mono', monospace;
+  text-decoration-line:underline overline;
+ text-decoration-style:wavy;
+
+  }

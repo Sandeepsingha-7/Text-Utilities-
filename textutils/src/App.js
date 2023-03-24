@@ -6,6 +6,14 @@ import About from './components/About.js';
 import Alert from './components/Alert.js';
 
 import React, { useState } from 'react';
+import {
+BrowserRouter as Router,
+  Routes,
+  Route
+}
+ from 'react-router-dom';
+
+
 
 
 function App() {
@@ -43,15 +51,22 @@ function App() {
 
 
   return (
+    <Router>
     <div>
       <Navbar title="TEXT UTILITIES" mode={mode} toggleMode={toggleMode} text={text} />
       <Alert alert={alert} />
       <div className="container">
-
-        <Textform heading="Enter the text below to convert or analyse" mode={mode} showAlert={showAlert}/>
-        <About mode={mode} />
+        <Routes>
+          <Route path='/' element={<Textform heading="Enter the text below to convert or analyse" mode={mode} showAlert={showAlert}/>}/>
+        
+          
+          <Route path='/About' element={<About mode={mode} />}/>
+          
+          
+        </Routes>
       </div>
     </div>
+      </Router>
   );
 }
 
