@@ -5,8 +5,7 @@
 #headfont{
   display: flex;
   justify-content:center;
-  font-family: 'Abril Fatface', cursive;
-font-family: 'Oswald', sans-serif;
+  font-family: 'Delicious Handrawn', cursive;
 }
 
 .form-control{
@@ -19,14 +18,8 @@ font-family: 'Playfair Display', serif;
   }
 
 #wordcount{
-font-family: 'Abril Fatface', cursive;
-font-family: 'Alkatra', cursive;
-font-family: 'Bree Serif', serif;
-font-family: 'DM Serif Display', serif;
-font-family: 'EB Garamond', serif;
-font-family: 'Lobster Two', cursive;
-font-family: 'Nanum Myeongjo', serif;
-font-family: 'Oswald', sans-serif;
+font-family: 'Francois One', sans-serif;
+
 }
 
 #flexSwitchCheckDefault{
